@@ -1,0 +1,18 @@
+# AWS region to deploy resources
+aws_region = "us-east-1"
+
+# S3 bucket name (must be globally unique)
+s3_bucket_name = "accounting-app-files-xyz123"
+
+# Email addresses for notifications
+sender_email = "notifications@yourdomain.com"
+accountant_email = "accountant@yourdomain.com"
+
+# Your IP address for SSH access
+your_ip = "203.0.113.1"
+
+# AMI ID for the EC2 instance
+ami_id = "ami-0c55b159cbfafe1f0"
+
+# Name of your key pair for SSH access
+key_name = "accounting-app-key" 
